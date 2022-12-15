@@ -18,23 +18,24 @@
 <body>
     <header class="container-fluid">
         <h1>My Portfolio</h1>
-        <h3>Koby Sillito</h3>
+        <!-- <h3>Koby Sillito</h3> -->
     </header>
     
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Koby Sillito</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#my-work">My Work</a></li>
-            <li><a href="#">Contact me</a></li>
-          </ul>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Koby Sillito</a>
         </div>
-    <main>
-      <section id="about-me">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-work">My Work</a></li>
+          <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main" style="background-color: lightgrey;">
+      <section id="about-me" class="container py-5">
         <h2>About Me</h2>
         <p>My name is Koby</p>
         <ul>
@@ -44,11 +45,68 @@
           <li>UT Student</li>
         </ul>
       </section>
-      <section id="my-work" class="container">
-        <div class="col-md-4">Password Generator</div>
+      <section id="my-work" class="album py-5 bg-light">
+        <div class="container">
+          <h1>My Work</h1>
+          <div class="row">
 
+            <div id="generator" class="col-md-4 img-thumbnail">
+              <div class="card mb-4 box-shadow">
+                <a href="https://kobys82.github.io/Password-Generator/" target="_blank">
+                  <div class="card-body">
+                    <h3 class="card-text">Password Generator</h3>
+                  </div>
+                  <img class="card-img-top" src="./Assets/password-generator-img.JPG" alt="password generator screen shot" style="height: 225px; width: 100%; display: block;" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" data-holder-rendered="true">
+                </a>
+              </div>
+            </div>
+
+            <div id="workDayScheduler" class="col-md-4 img-thumbnail">
+              <div class="card mb-4 box-shadow">
+                <a href="https://kobys82.github.io/Work-Day-Scheduler/" target="_blank">
+                  <div class="card-body">
+                    <h3 class="card-text">Work Day Scheduler</h3>
+                  </div>
+                  <img class="card-img-top" src="./Assets/Work-day-picture.JPG" alt="password generator screen shot" style="height: 225px; width: 100%; display: block;" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" data-holder-rendered="true">
+                </a>
+              </div>
+            </div>
+
+            <div id="projectOne" class="col-md-4 img-thumbnail">
+              <div class="card mb-4 box-shadow">
+                <a href="https://humbertov374.github.io/project-one/" target="_blank">
+                  <div class="card-body">
+                    <h3 class="card-text">Cloud9 Recipes</h3>
+                  </div>
+                  <img class="card-img-top" src="./Assets/Cloud9Recipe.JPG" alt="password generator screen shot" style="height: 225px; width: 100%; display: block;" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" data-holder-rendered="true">
+                </a>
+              </div>
+            </div>
+
+            <div id="Placeholder" class="col-md-4 img-thumbnail">
+              <div class="card mb-4 box-shadow">
+                <a href="https://" target="_blank">
+                  <div class="card-body">
+                    <h3 class="card-text">Placeholder</h3>
+                  </div>
+                  <img class="card-img-top" src="./Assets/Cloud9Recipe.JPG" alt="password generator screen shot" style="height: 225px; width: 100%; display: block;" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" data-holder-rendered="true">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </section>
-
+      <section id="contact-me" class="container">
+        <div class="card shadow-box">
+          <h1>Contact Me</h1>
+          <ul>
+            <li>Phone Number: 999-999-9999</li>
+            <li>Email: MyName@gmail.com</li>
+            <li>LinkedIn: Kobys82</li>
+          </ul>>
+        </div>
+      </section>
     </main>
 </body>
 </html>
